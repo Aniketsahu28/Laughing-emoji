@@ -1,0 +1,329 @@
+body{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: silver;
+
+}
+h1{
+  position: relative;
+  top: 7px;
+  left: 503px;
+  font-size: 80px;
+  color: black;
+  font-family: sans-serif;
+
+}
+.container{
+height: 400px;
+width: 400px;
+background-color: #bf7575;
+border: 2px solid black;
+border-radius: 50%;
+position: fixed;
+top: 200px;
+left: 479px;
+
+}
+.nose{
+  height: 60px;
+  width: 60px;
+  background-color: #902e2e;
+  position: fixed;
+  left: 644px;
+  top: 352px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.smile{
+  height: 74px;
+  width: 238px;
+  background-color: #e43737;
+  border: 2px solid black ;
+  border-bottom-left-radius: 126px;
+  border-bottom-right-radius: 126px;
+  position: relative;
+  top: 269px;
+  left: 78px;
+}
+.container:hover .smile{
+  height: 30px;
+  width: 238;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  transition-duration: 0.3s;
+  }
+  .eyes{
+      height: 86px;
+      width: 86px;
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 50%;
+  }
+  
+  #eye1{
+    position: fixed;
+    left: 555px;
+    top: 250px;
+  }
+  #eye2{
+    position: fixed;
+   left: 703px;
+   top: 250px
+  }
+  .eyeball{
+      height: 35px;
+      width: 35px;
+      background-color: black;
+      border:2px solid gray;
+      border-radius: 50%;          
+  }
+  #ball1{
+    position: relative;
+    top: 25px;
+    left: 15px;
+  }
+  .container:hover .eyeball {
+    animation-name: ball1;
+    animation-duration: 0.2s;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+   transition-duration: 0.5s;
+ }
+ @keyframes ball1 {
+     0%{
+       left: 0px;
+     }
+     100%{
+       left: 40px;
+     }
+ }
+  #ball2{
+    position: relative;
+    top: 25px;
+    left: 15px;
+    animation-name: ball2;
+  }
+  .container:hover .eyeball {
+    animation-name: ball2;
+    animation-duration: 0.2s;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+   transition-duration: 0.5s;
+ }
+ @keyframes ball2 {
+     0%{
+       left: 0px;
+     }
+     100%{
+       left: 40px;
+     }
+ }
+
+  .parent{
+    height:400px;
+    width: 400px;
+    background-color: #c58383;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: fixed;
+    top: 200px;
+    left: 40px;
+    }
+    .childnose{
+      height: 60px;
+    width: 60px;
+    background-color: #902e2e;
+    position: fixed;
+    left: 202px;
+    top: 352px;
+    border: 2px solid black;
+    border-radius: 50%;
+    }
+.child{
+    height: 86px;
+    width: 86px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.childsmile{
+    height: 74px;
+    width: 238px;
+    background-color: #e43737;
+    border: 2px solid black ;
+    border-bottom-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    position: relative;
+    top: 267px;
+    left: 78px;
+}
+.parent:hover .childsmile{
+    height: 30px;
+    width: 238;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transition-duration: 0.3s;
+    }
+#child1{
+    position: fixed;
+    left: 120px;
+    top: 250px;
+}
+#child2{
+    position: fixed;
+    left: 260px;
+    top: 250px;
+}
+.baby{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border:2px solid gray;
+    border-radius: 50%; 
+  }
+
+#baby1{
+    position: relative;
+    top: 24px;
+    left: 46px;
+  }
+ .parent:hover .baby {
+    animation-name: baby1;
+    animation-duration: 0.2s;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+   transition-duration: 0.5s;
+ }
+ @keyframes baby1 {
+     0%{
+       left: 0px;
+     }
+     100%{
+       right: 30px;
+     }
+ } 
+  #baby2{
+    position: relative;
+    top: 27px;
+    left: 46px;
+  }
+  .parent:hover .baby {
+    animation-name: baby2;
+    animation-duration: 0.2s;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+   transition-duration: 0.5s;
+ }
+ @keyframes baby2 {
+     0%{
+       left: 0px;
+     }
+     100%{
+       right: 30px;
+     }
+ }
+
+.universe{
+    height: 400px;
+    width: 400px;
+    background-color:#a26c5a;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: fixed;
+    top: 200px;
+    left: 917px;
+  }
+  .comet{
+    height: 60px;
+    width: 60px;
+    background-color: #902e2e;
+    position: fixed;
+    left: 1086px;
+    top: 352px;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  .planets{
+    height: 86px;
+    width: 86px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  #planet1{
+    position: fixed;
+    left: 1000px;
+    top: 250px;
+  }
+  #planet2{
+    position: fixed;
+    left: 1145px;
+    top: 250px;
+  }
+  .star{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border:2px solid gray;
+    border-radius: 50%; 
+  }
+  #star1{
+    position: relative;
+    top: 23px;
+    left: 2px;
+  }
+  .universe:hover .star {
+    animation-name: star1;
+    animation-duration: 0.2s;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+   transition-duration: 0.5s;
+ }
+ @keyframes star1 {
+     0%{
+       left: 0px;
+     }
+     100%{
+       left: 40px;
+     }
+ }
+#star2{
+    position: relative;
+    top: 24px;
+    left: 2px;
+  }
+  .universe:hover .star {
+    animation-name: star2;
+    animation-duration: 0.2s;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+   transition-duration: 0.5s;
+ }
+ @keyframes star2 {
+     0%{
+       left: 0px;
+     }
+     100%{
+       left: 40px;
+     }
+ }
+  
+  .moon{
+    height: 74px;
+    width: 238px;
+    background-color: #e43737;
+    border: 2px solid black ;
+    border-bottom-left-radius: 126px;
+    border-bottom-right-radius: 126px;
+    position: relative;
+    top: 268px;
+    left: 78px;
+  }
+  .universe:hover .moon{
+    height: 30px;
+    width: 238;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transition-duration: 0.3s;
+    }
